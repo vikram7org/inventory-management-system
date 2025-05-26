@@ -49,7 +49,7 @@ Inventory.update_quantity('apple', 90)
 Inventory.add_item('cherry', 20)
 
 # show inventory
-Inventory.display_inventory()
+Inventory.display_inventory()h
 
 
 
