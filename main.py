@@ -35,20 +35,17 @@ class Inventory:
 # Example usage
 # create an instance of Inventory
 Inventory = Inventory() 
-# add items to inventory
+
 Inventory.add_item('banana', 10)
 Inventory.add_item('apple', 5)
 Inventory.add_item('orange', 8)
 
-# remove an item from inventory
 Inventory.remove_item('banana')
 
-# update item quantity
 Inventory.update_quantity('apple', 90)
 
 Inventory.add_item('cherry', 20)
 
-# show inventory
 Inventory.display_inventory()
 
 
