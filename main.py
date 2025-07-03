@@ -32,7 +32,7 @@ class Inventory:
             for name, quan in self.items.items():
                 print(f"{name}: {quan}")
                 
-# Example usage
+
 # create an instance of Inventory
 Inventory = Inventory() 
 
