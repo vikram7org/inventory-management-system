@@ -1,5 +1,5 @@
 class Inventory:
-    def __init__(self):
+    def __init__(self):fd
         self.items = {}
 
     def add_item(self, name, quantity):
