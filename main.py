@@ -31,9 +31,7 @@ class Inventory:
             print('Current Inventory:')
             for name, quan in self.items.items():
                 print(f"{name}: {quan}")
-                
 
-# create an instance of Inventory
 Inventory = Inventory() 
 
 Inventory.add_item('banana', 10)
