@@ -8,7 +8,7 @@ class Inventory:
         else:
             self.items[name] = quantity
         print(f"Item '{name}' added to inventory.")
-
+asasa
 
     def remove_item(self, name):
         if name in self.items:
